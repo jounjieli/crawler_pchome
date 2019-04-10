@@ -1,0 +1,838 @@
+<! DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=Big5">
+<title>PChome 商店街</title>
+<link rel="icon" href="https://img.pcstore.com.tw/web_img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://img.pcstore.com.tw/web_img/favicon.ico" type="image/x-icon">
+<link href="/css/style_lm2_normal.css?t=05" rel="stylesheet" type="text/css">
+<link href="/css/real_fcache/grid_bar.css?t=1554188471" rel="stylesheet" type="text/css">
+<link href="/css/style.css?t=1224830085" rel="stylesheet" type="text/css">
+<link href="/css/siimsg.css?t=11" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="/css/extjs/ext.js?t=10"></script> 
+<script language="JavaScript" src="/css/extjs/stern3.js?t=10"></script>
+<script language="JavaScript" src="/css/store.js?t=58"></script>
+<script language="JavaScript" src="/css/store_tools.js?t=12"></script>
+<script language="JavaScript" src="/css/search_autoword.js?t=10"></script>
+<script type="text/javascript" src="https://sii.pcstore.com.tw/ui/js/comet_tool.js?p=20190102002"></script>
+<script type="text/javascript" src="https://ii.pcstore.com.tw/ui/js/comet_tool.js?p=20190102001"></script>
+<script type="text/javascript">
+  var search_range = "all";
+  var img_url = "https://img.pcstore.com.tw";
+  var ls_set = 0;
+  var enc_skw = "pV2lXQ==";
+  var lkey = enc_skw+'_all____gw2__1';
+  ls_set = 1;
+  var ls_s = localStorage.getItem("srhkind");
+  var ls_e = localStorage.getItem("srhkind_expire");
+</script>
+</head>
+<body class="twoColFixLtHdr"> 
+<u><span id="ttotal"></span></u>
+<a name="top"></a>
+<form method="post" name="main_store" onsubmit="return false;" action="">
+<input type="hidden" name="type_code" value="">
+<input type="hidden" name="send_keyword" value="">
+<div name="adstr" id="adstr" style="display:none;position:absolute;"><div align="center"><a href="/edm/store_ad_analysis.php?ad_type=P000000&ad_loct=bdevent_ad0&st_ad_url=http%3A%2F%2Fimg.pcstore.com.tw%2Fstore_ad%2Fpage%2F201904%2F0401bank%2Findex.htm"><img src="https://img.pcstore.com.tw/pch_ad/00/49/67/00496750.jpg" width="160" border="0"></a></div><div class="line">&nbsp;</div><div align="center"><a href="/edm/store_ad_analysis.php?ad_type=P000000&ad_loct=bdevent_ad1&st_ad_url=https%3A%2F%2Fboss.pcstore.com.tw%2Fad.htm%3Fad%3Db1904-t"><img src="https://img.pcstore.com.tw/pch_ad/00/49/66/00496696.jpg" width="160" border="0"></a></div><div class="line">&nbsp;</div><div align="center"><a href="/edm/store_ad_analysis.php?ad_type=P000000&ad_loct=bdevent_ad2&st_ad_url=https%3A%2F%2Fimg.pcstore.com.tw%2Fstore_ad%2Fpage%2F201904%2F0407store%2Findex.htm"><img src="https://img.pcstore.com.tw/pch_ad/00/49/67/00496751.jpg" width="160" border="0"></a></div><div class="line">&nbsp;</div><div align="center"><a href="/edm/store_ad_analysis.php?ad_type=P000000&ad_loct=bdevent_ad3&st_ad_url=http%3A%2F%2Fimg.pcstore.com.tw%2Fstore_ad%2Fpage%2F201904%2F0408_50free%2Findex.htm"><img src="https://img.pcstore.com.tw/pch_ad/00/49/67/00496745.jpg" width="160" border="0"></a></div><div class="line">&nbsp;</div><div align="center"><a href="/edm/store_ad_analysis.php?ad_type=P000000&ad_loct=bdevent_ad4&st_ad_url=https%3A%2F%2Fwww.pcstore.com.tw%2Fcareushop%2F"><img src="https://img.pcstore.com.tw/pch_ad/00/49/68/00496885.jpg" width="160" border="0"></a></div><div class="line">&nbsp;</div><div align="center"><a href="/edm/store_ad_analysis.php?ad_type=P000000&ad_loct=bdevent_ad5&st_ad_url=http%3A%2F%2Fmall.pcstore.com.tw%2F"><img src="https://img.pcstore.com.tw/pch_ad/00/49/48/00494826.jpg" width="160" border="0"></a></div><div class="line">&nbsp;</div><div align="center"><a href="/edm/store_ad_analysis.php?ad_type=P000000&ad_loct=bdevent_ad6&st_ad_url=http%3A%2F%2Fimg.pcstore.com.tw%2Fstore_ad%2Fpage%2F201904%2F0401bank%2Findex.htm"><img src="https://img.pcstore.com.tw/pch_ad/00/49/67/00496749.jpg" width="160" border="0"></a></div></div>
+<div id="container">
+<!-- 最上方資訊列 START -->
+<script language="JavaScript" type="text/JavaScript">
+  function mob_checkprc() {
+    if ( (window.location.host.match(/^www\d?.(mypc|p|pc)store.com.tw/i)) && (window.location.protocol == "http:" || window.location.protocol == "https:") && (window.location.href.indexOf('/',8) == window.location.href.lastIndexOf('/') || window.location.href.match(/\/index.htm/i) )
+       ) { 
+      jscookie = new CookieHaldle("/",window.location.host.replace(/(.+\.)(.*pc?store.com.tw)/, "$2"));
+      if (jscookie.getCookie("mob_frto") != null && jscookie.getCookie("mob_frto") == 1) { return; }
+      
+      var mob_t1,mob_t2,mob_wcm,mob_hcm,mob_diagonal,mob_scr_inh,mob_dvs;
+      mob_t_w=window.screen.width;  mob_t_h=window.screen.height;
+      mob_diagonal=Math.pow(mob_t_w,2)+Math.pow(mob_t_h,2);
+      mob_diagonal=Math.sqrt(mob_diagonal);
+      mob_dvs=145;  // 96
+      if (mob_t_h >= 1280) { mob_dvs=350; }
+      mob_diagonal=mob_diagonal/mob_dvs;  
+      mob_diagonal=mob_diagonal.toFixed(2);
+console.log('log mob_diagonal:'+mob_diagonal);
+      if (mob_diagonal < 7) { 
+        //window.location.href='https://m.pcstore.com.tw'+'?'+mob_diagonal;
+        jscookie.setCookie("mob_frto", 3); 
+        window.location.href='https://m.pcstore.com.tw'; 
+      }
+    }
+  }
+  mob_checkprc();
+  //eventUtil.ready(mob_checkprc);  
+  
+  function mob_frtoprc() {
+    var mob_frto;
+    jscookie = new CookieHaldle("/",window.location.host.replace(/(.+\.)(.*pc?store.com.tw)/, "$2"));
+    mob_frto=2;
+    jscookie.setCookie("mob_frto", mob_frto); 
+    window.location.href='https://m.pcstore.com.tw'; 
+  }
+</script>
+<div id="header_v3">
+  <div class="left"><a href="https://www.pcstore.com.tw/"><img src="https://img.pcstore.com.tw/web_img/st/pchome_logo.gif" width="252" height="42" border="0"></a><br>
+
+  <span class="t11"><span class="left">今日商品</span><span class="leftcon-left">&nbsp;</span><span class="leftcon-right">342,143,008</span><span class="left" style="margin-right:8px;">件</span></span>
+  <span class="t11"><span class="left">店家</span><span class="leftcon-left">&nbsp;</span><span class="leftcon-right">121,947</span><span class="left">家</span></span>
+  </div>
+ 
+  <div class="right">
+    <span class="rightcon-right">    	
+      <span><img src="https://img.pcstore.com.tw/web_img/st/arrow_2.gif" width="3" height="5" align="absmiddle"><a onclick="mob_frtoprc()" style="cursor:pointer">手機版</a></span><span><img src="https://img.pcstore.com.tw/web_img/st/arrow_2.gif" width="3" height="5" align="absmiddle"><a href="https://www.pcstore.com.tw/">商店街</a></span><span><img src="https://img.pcstore.com.tw/web_img/st/arrow_2.gif" width="3" height="5" align="absmiddle"><a href="https://www.pchome.com.tw/" target="_BLANK">PChome</a></span><span><img src="https://img.pcstore.com.tw/web_img/st/arrow_2.gif" width="3" height="5" align="absmiddle"><a href="https://seller.pcstore.com.tw/service/" target="_blank">客服中心</a></span><span id="idloginout"><img src="https://img.pcstore.com.tw/web_img/st/arrow_2.gif" width="3" height="5" align="absmiddle"><a href="https://paystore.pcstore.com.tw/adm/myacc_ordlist.htm"><b>登入</b></a></span>
+    </span>
+    <div class="clear"></div>
+    <div class="rightcon-bottom">        	
+    <span class="t12b"><img src="https://img.pcstore.com.tw/web_img/st/arrow_1.gif" width="13" height="12" align="absmiddle"><a href="https://boss.pcstore.com.tw/ad.htm?ad=top">我要開店</a></span>    
+    <span class="t12b"><img src="https://img.pcstore.com.tw/web_img/st/arrow_1.gif" width="13" height="12" align="absmiddle"><a href="https://seller.pcstore.com.tw" style="color:#ff0000" target="_BLANK">個人賣場</a></span> 
+    <span class="t12b"><img src="https://img.pcstore.com.tw/web_img/st/arrow_1.gif" width="13" height="12" align="absmiddle"><a href="https://paystore.pcstore.com.tw/adm/myacc_ordlist.htm">我的帳戶</a></span>
+    <span class="t12b"><img src="https://img.pcstore.com.tw/web_img/st/arrow_1.gif" width="13" height="12" align="absmiddle"><a href="https://www.pcstore.com.tw/adm/buy_cart_list.htm">購物車</a></span>
+    </div>
+  </div>
+
+  <div id="top-search">
+      <select class="search_option" name="slt_k_option" onmouseout="this.size=1;" onmouseover="this.size=7;" onclick="this.size=1;" size="1">  
+        <option value="1" selected>全部商品</option>
+        <option value="12" >宅配0元免運</option>
+        <option value="14" >24h快速到貨</option>
+        <option value="2" >商場名稱</option>
+        <option value="15" >優良專櫃</option>
+                <option value="9" >隔日配</option>
+        <option value="8" >超商取貨</option>
+                        <option value="10" >商品編號</option>
+                </select>        
+        <input x-webkit-speech="" lang="zh-TW" x-webkit-grammar="builtin:search" id="id_search_word" name="store_k_word" type="text" size="20" value="包包" onkeyup="autodirection(this, event)" onkeydown="updownselect(this, event);p_keydown(this.value, 'psearch', '/adm/psearch.htm','',event)" onfocus="bind_autoslt();" title="NOT_CHECK" autocomplete="off"><img class="search_btn" src="https://img.pcstore.com.tw/web_img/st/top_search_button.png" onclick="s_k_search('/adm/psearch.htm')">
+        <a href="/adm/psearch_plus.htm" class="t10">進階&#187;</a>
+        <div style="clear:both;position:absolute;left:98px;top:35px;" id="id_search_area"></div>
+  </div>
+
+</div>
+<div class="clear"></div>
+<!-- 最上方資訊列 END -->
+<!-- 主功能區塊 START -->
+  
+<!-- START -->
+<div class="thMenu_bar">
+<a class="thMenu_store" href="https://www.pcstore.com.tw/index_ct.htm"><!--store--></a>
+<a class="thMenu_boss" href="https://boss.pcstore.com.tw/ad.htm?ad=tag"><!--boss--></a>
+
+<a class="thMenu_delivery" href="https://www.pcstore.com.tw/index_de.htm"><!--24h--></a>
+<a class="thMenu_c2c" href="https://seller.pcstore.com.tw/"><!--c2c--></a>
+
+<a class="thMenu_fashion" href="https://boss.pcstore.com.tw/ad.htm?ad=fa190408"><!--fa--></a>
+<a class="thMenu_baby" href="https://boss.pcstore.com.tw/ad.htm?ad=baby190408"><!--baby--></a>
+<a class="thMenu_life" href="https://boss.pcstore.com.tw/ad.htm?ad=life190408"><!--life--></a>
+<a class="thMenu_man" href="https://boss.pcstore.com.tw/ad.htm?ad=men190408"><!--men--></a>
+<a class="thMenu_3c" href="https://boss.pcstore.com.tw/ad.htm?ad=3C190408"><!--3C--></a>
+<a class="thMenu_appliances" href="https://boss.pcstore.com.tw/ad.htm?ad=ia190408"><!--ia--></a>
+<a class="thMenu_food" href="https://boss.pcstore.com.tw/ad.htm?ad=food190408"><!--food--></a>
+<a class="thMenu_event" href="https://www.pcstore.com.tw/pchome24h/" target="_blank"><!--PC 24h--></a>
+</div>
+<!-- END -->  
+
+<!-- 氣氛圖 -->
+<div class="topLongAd">
+<a href="https://www.pcstore.com.tw/edm/store_ad_analysis.php?ad_type=commt&ad_loct=mood_img_0&st_ad_url=https%3A%2F%2Fimg.pcstore.com.tw%2Fstore_ad%2Fpage%2F201904%2F0408event%2Findex.htm" target="_BLANK"><img src="https://img.pcstore.com.tw/pch_ad/00/49/68/00496870.jpg" border="0"></a>	
+</div>
+<div class="cb_top10px"></div>
+<!-- 導覽路徑 -->
+<div id="nov-bar"><a href="https://www.pchome.com.tw/">PChome</a> > <a href="https://www.pcstore.com.tw/">商店街首頁</a> > <span id="sreswd" style="font-size:13px"></span></div>
+<!-- 主功能區塊 END -->
+<!-- 左欄 START -->
+<div id="sidebar2">
+<!--搜尋工具 start -->
+<div id="keyad-in">
+<!--star搜尋小幫手 -->
+<div class="tool">
+<div class="tool-in">
+<div class="tool-in-line"></div>
+<div class="tool-in-con">關鍵字：
+<input id="id_search_word" name="store_k_word2" type="text" size="20" value="包包" onkeyup="chgkeyword('store_k_word2')" onkeydown="chgkeyword('store_k_word2');go_search('p_keydown');" onfocus="bind_autoslt();" title="NOT_CHECK" autocomplete="off" style="width:85px;line-height:13px; margin-bottom:5px;">
+<br />
+價格區間：<input type="text" name="slt_p_range_s" value="" title="NOT_CHECK" style="width:28px;line-height:13px;"> 至 <input type="text" name="slt_p_range_e" value="" title="NOT_CHECK" style="width:28px;line-height:13px;">
+</div>
+<div class="tool-in-line"></div>
+<div class="tool-in-con">
+<input type="checkbox" name="k_option[9]" id="k_option[9]" value="p_counter_b" ><a onclick="chkbox_sel('k_option[9]')" style="color:#3f3f3f;cursor:pointer;">優良專櫃</a><br>
+<input type="checkbox" name="k_option[5]" id="k_option[5]" value="store_cart_b" ><a onclick="chkbox_sel('k_option[5]')" style="color:#3f3f3f;cursor:pointer;">跨店宅配0元免運</a><br>
+<input type="checkbox" name="k_option[8]" id="k_option[8]" value="p_ff_b" ><a onclick="chkbox_sel('k_option[8]')" style="color:#3f3f3f;cursor:pointer;">24h快速到貨</a><br>
+<input type="checkbox" name="k_option[4]" id="k_option[4]" value="p_point_b" ><a onclick="chkbox_sel('k_option[4]')" style="color:#3f3f3f;cursor:pointer;">現金積點</a>&nbsp;
+<input type="checkbox" name="k_option[2]" id="k_option[2]" value="p_nextday_shp_b" ><a onclick="chkbox_sel('k_option[2]')" style="color:#3f3f3f;cursor:pointer;">隔日配</a>&nbsp;
+<br />
+<input type="checkbox" name="k_option[6]" id="k_option[6]" value="p_pcs_cvs_b" ><a onclick="chkbox_sel('k_option[6]')" style="color:#3f3f3f;cursor:pointer;"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" alt="全家萊爾富OK超商取貨付款" align="absmiddle"> 取貨付款</a><br>
+<input type="checkbox" name="k_option[7]" id="k_option[7]" value="p_pcs_711_b" ><a onclick="chkbox_sel('k_option[7]')" style="color:#3f3f3f;cursor:pointer;"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" alt="711超商付款" align="absmiddle"> 取貨付款</a>&nbsp;
+</div>
+<div class="tool-in-line"></div>
+<a href="javascript:chgkeyword('store_k_word2');go_search('s_k_search');"><img src="https://img.pcstore.com.tw/web_img/st/key_s_tool_buttom.gif" width="47" height="25" border="0" class="isearch" style=" margin-right:7px; margin-left:50px;"></a><a href="psearch_plus.htm" class="t10">進階&raquo;</a>
+</div>    
+</div>
+<!--end搜尋小幫手 -->
+</div>
+<!--star商品分類 -->
+<div id="item-org">
+<div class="tit">商品分類</div>
+<div class="con"><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P100002____2">女性服飾 <span>(10195)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000022____2">保養彩妝與香水 <span>(3115)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000256____2">女性包包與鞋子 <span>(676261)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000587____2">婦幼與親子 <span>(12260)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000242____2">家電 <span>(826)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000013____2">居家 <span>(50765)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000750____2">鐘錶眼鏡 <span>(8122)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000001____2">飾品與精品 <span>(18394)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000754____2">食品與特產 <span>(580)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000252____2">保健 <span>(330)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000588____2">寵物 <span>(3314)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P210257____2">傢俱寢飾 <span>(1344)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000075____2">3C周邊 <span>(1083)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000088____2">相機 <span>(965)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000095____2">手機通訊 <span>(6908)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000027____2">電腦與平板 <span>(483)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P100003____2">男性時尚 <span>(103687)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000005____2">休閒旅遊 <span>(9139)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P211028____2">運動健身 <span>(25373)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000054____2">汽機車 <span>(513)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000761____2">書籍與雜誌 <span>(515)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P001077____2">文具與辦公用品 <span>(1670)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P211027____2">電玩遊戲 <span>(100)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P000831____2">動漫玩具公仔 <span>(8554)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P001364____2">收藏品與藝術品 <span>(2259)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P001418____2">音樂與影片 <span>(66)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P210615____2">餐廚衛浴 <span>(300)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P210396____2">手作與原創 <span>(386)</span></a></div><div class="con-up-font2"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_P212413____2">不動產服務 <span>(65)</span></a></div><div style="border-top:1px dotted #cecece; margin-top:10px; padding-top:8px; text-align:right;font-weight:bold;"><a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_____2&relink=HE">全部符合的分類&raquo;</a></div>
+</div>
+</div>
+<!--end商品分類 -->
+</div>
+<!-- 左欄 END -->
+
+<!-- 右欄 START -->
+<div id="sidebar3">
+<!-- 160x120 外廣 -->
+        
+<!--star熱門搜尋 -->
+<div id="keyad-right">
+<div id="payad_kw"></div>
+</div>
+<!--end熱門搜尋 -->
+</div>
+<!-- 右欄 END -->
+
+<!-- 主區 START -->
+<div id="mainContent1">
+<!--關鍵字搜尋 start -->
+<div class="ct_searchBar">
+<select name="slt_k_option3" onmouseout="this.size=1;" onmouseover="this.size=7;" onclick="this.size=1;" style="position:absolute;" onchange="chgkeyword2('slt_k_option3')">
+<option value="1" selected>全部商品</option>
+<option value="12" >宅配0元免運</option>
+<option value="14" >24h快速到貨</option>
+<option value="2" >商場名稱</option>
+<option value="15" >優良專櫃</option>
+<option value="9" >隔日配</option>
+<option value="8" >超商取貨</option>
+<option value="10" >商品編號</option>
+</select>
+<input name="store_k_word3" class="ct_searchBarTxt" style="margin: 0 5px 0 70px;" type="text" value="包包" onkeyup="chgkeyword('store_k_word3')" onkeydown="chgkeyword('store_k_word3');p_keydown(this.value, 'psearch', 'https://www.pcstore.com.tw/adm/psearch.htm','',event);" onfocus="bind_autoslt();" title="NOT_CHECK" autocomplete="off">
+<img src="https://img.pcstore.com.tw/web_img/st/ct_searchBarBtn.gif" width="63" height="25" border="0" align="absmiddle" class="isearch" style="cursor:hand;" onclick="chgkeyword('store_k_word3');s_k_search('https://www.pcstore.com.tw/adm/psearch.htm')">
+</div>
+
+<!-- 優先注目商品 -->
+<div class="priority_ad">
+<div class="priority_ad_tit">優先注目商品 </div>
+<div>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">
+<div id="keyad-pro">
+<a href="/edm/payad_priosrch.php?prio_id=RS151573989792194039&sad_url=https%3A%2F%2Fwww.pcstore.com.tw%2Frogiv%2FM21880980.htm"><img src="https://img.pcstore.com.tw/~prod/M21880980_sma.jpg?pimg=static&P=1547092082#P100003" id="img_t21880980" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" border="0" height="134" width="134"></a>
+<div style="margin-top:7px;">
+		</div>
+<div class="cost">$<span>1,080</span></div>
+<div class="tit" id="con_t21880980"><a href="/edm/payad_priosrch.php?prio_id=RS151573989792194039&sad_url=https%3A%2F%2Fwww.pcstore.com.tw%2Frogiv%2FM21880980.htm">[城泓<font color='red'>包包</font>] 牛津層次三用後背包 筆電包 電腦後背包 大型旅行包 登山包376</a></div>
+<div class="store1"><a href="https://www.pcstore.com.tw/rogiv/">城泓包包&nbsp;(410)</a></div>
+</div>
+</td>
+<td valign="top">
+<div id="keyad-pro">
+<a href="/edm/payad_priosrch.php?prio_id=RS151573467293106561&sad_url=https%3A%2F%2Fwww.pcstore.com.tw%2Frogiv%2FM33588932.htm"><img src="https://img.pcstore.com.tw/~prod/M33588932_sma.jpg?pimg=static&P=1551690480#P100003" id="img_t33588932" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" border="0" height="134" width="134"></a>
+<div style="margin-top:7px;">
+		</div>
+<div class="cost">$<span>690</span></div>
+<div class="tit" id="con_t33588932"><a href="/edm/payad_priosrch.php?prio_id=RS151573467293106561&sad_url=https%3A%2F%2Fwww.pcstore.com.tw%2Frogiv%2FM33588932.htm">[城泓<font color='red'>包包</font>] 輕量個性簡約側背包 斜背包 平板電腦包 防水 641</a></div>
+<div class="store1"><a href="https://www.pcstore.com.tw/rogiv/">城泓包包&nbsp;(410)</a></div>
+</div>
+</td>
+<td valign="top">
+<div id="keyad-pro">
+<a href="/edm/payad_priosrch.php?prio_id=RS151235625424752825&sad_url=https%3A%2F%2Fwww.pcstore.com.tw%2Frogiv%2FM33594656.htm"><img src="https://img.pcstore.com.tw/~prod/M33594656_sma.jpg?pimg=static&P=1547884144#P211028" id="img_t33594656" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" border="0" height="134" width="134"></a>
+<div style="margin-top:7px;">
+		</div>
+<div class="cost">$<span>1,080</span></div>
+<div class="tit" id="con_t33594656"><a href="/edm/payad_priosrch.php?prio_id=RS151235625424752825&sad_url=https%3A%2F%2Fwww.pcstore.com.tw%2Frogiv%2FM33594656.htm">[城泓<font color='red'>包包</font>] 簡約三用旅行包 旅行後背包 運動包 健身包 R639</a></div>
+<div class="store1"><a href="https://www.pcstore.com.tw/rogiv/">城泓包包&nbsp;(410)</a></div>
+</div>
+</td>
+<td valign="top">
+<div id="keyad-pro">
+<a href="https://www.pcstore.com.tw/24hr-baby/M54267033.htm"><img src="https://img.pcstore.com.tw/~prod/M54267033_sma.jpg?pimg=static&P=1553826182#P000587" id="img_t54267033" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" border="0" height="134" width="134"></a>
+<div style="margin-top:7px;">
+		<span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">跨店宅配0元免運</span></div>
+<div class="cost">85折&nbsp;$<span>1581</span><br><span style="font:normal 11px/12px Verdana; color:#666">售價$1,860&nbsp;&nbsp;</span></div>
+<div class="tit" id="con_t54267033"><a href="https://www.pcstore.com.tw/24hr-baby/M54267033.htm">法國 COQENPATE 方方包/手提包/兒童<font color='red'>包包</font> (5款可選)</a></div>
+<div class="store1"><a href="https://www.pcstore.com.tw/24hr-baby/">麗兒采家&nbsp;(46757)</a></div>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+<!-- 搜尋結果 start -->
+<!-- 店家結果 -->
+<div style="padding:9px 8px 5px 8px; border:1px solid #CCC; margin-top:10px; line-height:18px;"><a href="psearch_store.htm?store_k_word=JUE1JTVEJUE1JTVE&slt_k_option=2" style="float:right">更多商場&raquo;</a>符合商場：<a href="https://www.pcstore.com.tw/moli/" style="margin:5px;">二手旗艦 名牌二手包包專賣店</a>、<a href="https://www.pcstore.com.tw/polo/" style="margin:5px;">包包特賣會館</a>、<a href="https://www.pcstore.com.tw/watch/" style="margin:5px;">Lady.Lady 台灣手創包包</a></div>
+<!-- 排序顯示方式 -->
+<div class="psearchsort">
+<span>熱門度</span>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_2__GraphWord_all_____2">新上架</a>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_3__GraphWord_all_____2">價格低</a>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_4__GraphWord_all_____2">價格高</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>圖文</span>｜<a href='/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__Graph_all_____2'>圖</a>｜<a href='/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__Word_all_____2'>文字</a>&nbsp;&nbsp;&nbsp;
+<strong>全部</strong>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_____0" style="text-decoration:none"><img src="https://img.pcstore.com.tw/web_img/icon_store.gif" class="isearch" border="0"></a>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_____1" style="text-decoration:none"><img src="https://img.pcstore.com.tw/web_img/icon_ps.gif" class="isearch" border="0"></a>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_____3"><img src="https://img.pcstore.com.tw/web_img/icon_small_24h.gif" class="isearch" border="0"></a>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_____4"><img src="https://img.pcstore.com.tw/web_img/icon_small_buy490_0.gif?t=20181030" class="isearch" border="0"></a>｜<a href="/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_____6"><img src="https://img.pcstore.com.tw/web_img/icon_counter.jpg" class="isearch" border="0"></a>&nbsp;
+<SELECT onchange="pql_search('1')" name="page_count" onmouseout="this.size=1;" onmouseover="this.size=3;" onclick="this.size=1;" style="position:absolute;">
+<OPTION value="" >-</OPTION>
+<OPTION value=20 >20</OPTION>
+<OPTION value=40 selected>40</OPTION>
+<OPTION value=60 >60</OPTION>
+</SELECT>　　　　件 
+</div>
+<!-- 搜尋結果商品-->
+	    	
+<div id="keyad-pro-right3" class="priority">
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S155710910/C1209520321.htm"><img id="img_1209520321" src="https://cimg.pcstore.com.tw/cprd/C1209520321_sma.jpg?pimg=static&P=1553327258#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t priority_tit" id="con_1209520321"><a href="https://seller.pcstore.com.tw/S155710910/C1209520321.htm"><strong>COACH蔻馳65988 相機包 coach側背包 斜跨包 側背包 coach斜背包 小方包 女生<font color='red'>包包</font> 肩背斜挎包</strong></a></div>
+<div class="pic3">$<span>799</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S155710910/">Beauty代購網&nbsp;(242)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" class="priority1">
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S106418260/C1208063665.htm"><img id="img_1208063665" src="https://cimg.pcstore.com.tw/cprd/C1208063665_sma.jpg?pimg=static&P=1553243719#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t priority1_tit" id="con_1208063665"><a href="https://seller.pcstore.com.tw/S106418260/C1208063665.htm"><strong>(嘉義現貨 附發票)新款質感面料 寬肩帶手提側背<font color='red'>包包</font> 寶來小舖 8931 簡愛</strong></a></div>
+<div class="pic3">$<span>380</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_visa.jpg" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S106418260/">寶來小舖&nbsp;(2227)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" class="priority">
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S123137716/C1205787845.htm"><img id="img_1205787845" src="https://cimg.pcstore.com.tw/cprd/C1205787845_sma.jpg?pimg=static&P=1539223212#P100003" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t priority_tit" id="con_1205787845"><a href="https://seller.pcstore.com.tw/S123137716/C1205787845.htm"><strong>【BB0019】*24小時火速出貨* 熱賣防盜背包 斜背包 單肩包 防盜包 斜跨包  男生<font color='red'>包包</font> 耐磨防潑水</strong></a></div>
+<div class="pic3">$<span>380</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_visa.jpg" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S123137716/">MobileHouse手機之家&nbsp;(432)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" class="priority1">
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S122445072/C1212878373.htm"><img id="img_1212878373" src="https://cimg.pcstore.com.tw/cprd/C1212878373_sma.jpg?pimg=static&P=1545277169#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t priority1_tit" id="con_1212878373"><a href="https://seller.pcstore.com.tw/S122445072/C1212878373.htm"><strong>㊣美國代購㊣  Michael Kors MK貝殼包 小貝殼包 MK斜挎包 單肩包 十字紋 mk<font color='red'>包包</font> 側背包 女包</strong></a></div>
+<div class="pic3">$<span>700</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S122445072/">【最佳首選.EONM商城】美日代購&nbsp;(143)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" class="priority">
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S122445072/C1212878372.htm"><img id="img_1212878372" src="https://cimg.pcstore.com.tw/cprd/C1212878372_sma.jpg?pimg=static&P=1545277170#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t priority_tit" id="con_1212878372"><a href="https://seller.pcstore.com.tw/S122445072/C1212878372.htm"><strong>㊣美國代購㊣ Michael Kors mk 手拿包 防刮十字紋 mk長夾 多卡位 MK皮夾 錢包  mk<font color='red'>包包</font> 拉鏈錢夾</strong></a></div>
+<div class="pic3">$<span>580</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S122445072/">【最佳首選.EONM商城】美日代購&nbsp;(143)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/catdiy/M31418579.htm"><img id="img_31418579" src="https://img.pcstore.com.tw/~prod/M31418579_sma.jpg?pimg=static&P=1529636709#P000013" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_31418579"><a href="https://www.pcstore.com.tw/catdiy/M31418579.htm">喵喵【N3棉線】 每顆90元 台灣製造 AiSLON 帽子 <font color='red'>包包</font> 袋子 杯墊</a></div>
+<div class="pic3">$<span>90</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿1000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/catdiy/">MOMO DIY 喵喵手藝材料 滿百元才出貨喔！&nbsp;(21386)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/appstoreapp/M40441926.htm"><img id="img_40441926" src="https://img.pcstore.com.tw/web_img/no-product.gif#P000831" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_40441926"><a href="https://www.pcstore.com.tw/appstoreapp/M40441926.htm">二手補充<font color='red'>包包</font>裝3</a></div>
+<div class="pic3">$<span>2,555</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿100000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/appstoreapp/">APPSTORE&nbsp;(462)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/bolyboly8858/M31580510.htm"><img id="img_31580510" src="https://img.pcstore.com.tw/~prod/M31580510_sma.jpg?pimg=static&P=1550129267#P000831" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_31580510"><a href="https://www.pcstore.com.tw/bolyboly8858/M31580510.htm">韓國 bikit GUARD 天然植物精油防蚊扣 驅蚊扣 防蚊夾 大人小孩 <font color='red'>包包</font>衣服鞋子 E-41</a></div>
+<div class="pic3">$<span>10</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿2000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/bolyboly8858/">Boly Boly 手機電子配件&nbsp;(100374)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/catdiy/M24000602.htm"><img id="img_24000602" src="https://img.pcstore.com.tw/~prod/M24000602_sma.jpg?pimg=static&P=1530251762#P000013" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_24000602"><a href="https://www.pcstore.com.tw/catdiy/M24000602.htm">喵喵【N1中粗麻繩】每顆85元 台灣製造 AiSLON 麻線 鉤帽子 鉤<font color='red'>包包</font> 鉤袋子</a></div>
+<div class="pic3">$<span>85</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿1000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/catdiy/">MOMO DIY 喵喵手藝材料 滿百元才出貨喔！&nbsp;(21386)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S145748806/C1139759460.htm"><img id="img_1139759460" src="https://cimg.pcstore.com.tw/cprd/C1139759460_sma.jpg?pimg=static&P=1521039357#P000587" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1139759460"><a href="https://seller.pcstore.com.tw/S145748806/C1139759460.htm">&#x1f31f;現貨24H內出貨&#x1f697;衝評價衝評價(86抽一箱下單處)  Happy bebe 純水濕紙巾 <font color='red'>包包</font>都有蓋台中大雅經銷</a></div>
+<div class="pic3">$<span>468</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_visa.jpg" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S145748806/">世界代購Happy bebe濕紙巾&nbsp;(4550)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/store1538753867/M49968859.htm"><img id="img_49968859" src="https://img.pcstore.com.tw/web_img/no-product.gif#P100003" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_49968859"><a href="https://www.pcstore.com.tw/store1538753867/M49968859.htm"><font color='red'>包包</font>999</a></div>
+<div class="pic3">$<span>999</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">跨店宅配0元免運</span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/store1538753867/">store1538753867&nbsp;(168)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/bolyboly8858/M28870120.htm"><img id="img_28870120" src="https://img.pcstore.com.tw/~prod/M28870120_sma.jpg?pimg=static&P=1540270178#P000095" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_28870120"><a href="https://www.pcstore.com.tw/bolyboly8858/M28870120.htm">手工編織鑰匙扣 真皮鑰匙圈 20色 掛飾 <font color='red'>包包</font>/汽車鑰匙/機車鑰匙/家鑰匙 通用鑰匙圈</a></div>
+<div class="pic3">$<span>12</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿2000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/bolyboly8858/">Boly Boly 手機電子配件&nbsp;(100374)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S145748806/C1176998340.htm"><img id="img_1176998340" src="https://cimg.pcstore.com.tw/cprd/C1176998340_sma.jpg?pimg=static&P=1541749004#P000587" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1176998340"><a href="https://seller.pcstore.com.tw/S145748806/C1176998340.htm">&#x1f31f;最新活動&#x1f697;衝評價衝評價(86抽一箱下單處)  Happy bebe 純水濕紙巾 <font color='red'>包包</font>都有蓋台中大雅經銷</a></div>
+<div class="pic3">$<span>468</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_visa.jpg" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S145748806/">世界代購Happy bebe濕紙巾&nbsp;(4550)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/store1538753867/M50909520.htm"><img id="img_50909520" src="https://img.pcstore.com.tw/web_img/no-product.gif#P100003" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_50909520"><a href="https://www.pcstore.com.tw/store1538753867/M50909520.htm"><font color='red'>包包</font>799</a></div>
+<div class="pic3">$<span>799</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">跨店宅配0元免運</span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/store1538753867/">store1538753867&nbsp;(168)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S117022553/C1102806140.htm"><img id="img_1102806140" src="https://cimg.pcstore.com.tw/cprd/C1102806140_sma.jpg?pimg=static&P=1547303563#P000001" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1102806140"><a href="https://seller.pcstore.com.tw/S117022553/C1102806140.htm">湊6顆升級~韓版（9~10cm）仿狐狸毛 大毛球鑰匙圈、<font color='red'>包包</font>掛飾、毛球 吊飾、手作、毛球、婚禮禮物</a></div>
+<div class="pic3">$<span>39</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_visa.jpg" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S117022553/">~薄荷巧克力~&nbsp;(1593)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/store1523512342/M40858981.htm"><img id="img_40858981" src="https://img.pcstore.com.tw/web_img/no-product.gif#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_40858981"><a href="https://www.pcstore.com.tw/store1523512342/M40858981.htm">糖果<font color='red'>包包</font></a></div>
+<div class="pic3">$<span>110</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/store1523512342/">隨便賣大家買&nbsp;(2173)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/janome/M33323125.htm"><img id="img_33323125" src="https://img.pcstore.com.tw/~prod/M33323125_sma.jpg?pimg=static&P=1553165636#P000242" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_33323125"><a href="https://www.pcstore.com.tw/janome/M33323125.htm">日本進口 500番 金屬 暗釦.14mm~6mm 暗扣組 手縫暗釦, 洋裁子母釦,按扣,(洋裁衣服.拼布<font color='red'>包包</font>按釦,壓釦) 均一價 $30 </a></div>
+<div class="pic3">$<span>30</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/janome/">松芝車樂美JANOME&nbsp;(12800)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S145748806/C1174804532.htm"><img id="img_1174804532" src="https://cimg.pcstore.com.tw/cprd/C1174804532_sma.jpg?pimg=static&P=1521039411#P000587" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1174804532"><a href="https://seller.pcstore.com.tw/S145748806/C1174804532.htm">&#x1f31f;現貨24H內出貨&#x1f697;衝評價衝評價(86抽一箱下單處)  Happy bebe 純水濕紙巾 <font color='red'>包包</font>都有蓋台中大雅經銷</a></div>
+<div class="pic3">$<span>468</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_visa.jpg" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S145748806/">世界代購Happy bebe濕紙巾&nbsp;(4550)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/catdiy/M41479950.htm"><img id="img_41479950" src="https://img.pcstore.com.tw/~prod/M41479950_sma.jpg?pimg=static&P=1529565998#P000013" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_41479950"><a href="https://www.pcstore.com.tw/catdiy/M41479950.htm">喵喵夏紗【S帕斯達線】PASTA-歐洲進口蘇菲亞 手工編織 棉線 夏紗 <font color='red'>包包</font></a></div>
+<div class="pic3">$<span>160</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿1000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/catdiy/">MOMO DIY 喵喵手藝材料 滿百元才出貨喔！&nbsp;(21386)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/bolyboly8858/M41016358.htm"><img id="img_41016358" src="https://img.pcstore.com.tw/~prod/M41016358_sma.jpg?pimg=static&P=1550132145#P000095" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_41016358"><a href="https://www.pcstore.com.tw/bolyboly8858/M41016358.htm">三代防蚊手環 天然植物精油防蚊手環 驅蚊防蚊 小米同款 大人小孩 <font color='red'>包包</font>衣服鞋子</a></div>
+<div class="pic3">$<span>8</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿2000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/bolyboly8858/">Boly Boly 手機電子配件&nbsp;(100374)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S106885236/C1151985483.htm"><img id="img_1151985483" src="https://img.pcstore.com.tw/web_img/no-product.gif#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1151985483"><a href="https://seller.pcstore.com.tw/S106885236/C1151985483.htm">小<font color='red'>包包</font>22224A</a></div>
+<div class="pic3">$<span>99</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S106885236/">胡李瓊娥&nbsp;(3808)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S110113966/C1078451444.htm"><img id="img_1078451444" src="https://cimg.pcstore.com.tw/cprd/C1078451444_sma.jpg?pimg=static&P=1534475480#P100003" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1078451444"><a href="https://seller.pcstore.com.tw/S110113966/C1078451444.htm">雙11特價供應 多功能戰術腰包 手機包 零錢包 可放5.5.6吋手機包.小<font color='red'>包包</font>.大容量.多色可選</a></div>
+<div class="pic3">$<span>100</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S110113966/">旺來小舖&nbsp;(3386)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/catdiy/M43538470.htm"><img id="img_43538470" src="https://img.pcstore.com.tw/~prod/M43538470_sma.jpg?pimg=static&P=1529572309#P000013" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_43538470"><a href="https://www.pcstore.com.tw/catdiy/M43538470.htm">喵喵夏紗【Z85-維多利亞線】單顆$56元 台灣製造 夏紗 棉線 鉤娃娃 <font color='red'>包包</font> 衣服  </a></div>
+<div class="pic3">$<span>56</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿1000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/catdiy/">MOMO DIY 喵喵手藝材料 滿百元才出貨喔！&nbsp;(21386)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S119167809/C1120484936.htm"><img id="img_1120484936" src="https://cimg.pcstore.com.tw/cprd/C1120484936_sma.jpg?pimg=static&P=1553792406#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1120484936"><a href="https://seller.pcstore.com.tw/S119167809/C1120484936.htm">流蘇<font color='red'>包包</font>三件套</a></div>
+<div class="pic3">$<span>250</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S119167809/">晨曦&nbsp;(10818)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/hutu/M20893598.htm"><img id="img_20893598" src="https://img.pcstore.com.tw/~prod/M20893598_sma.jpg?pimg=static&P=1469937492#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_20893598"><a href="https://www.pcstore.com.tw/hutu/M20893598.htm">○糊塗鞋匠○ 優質鞋材 N40 鞋眼扣 皮件 <font color='red'>包包</font> DIY 鞋 修理 五金配件 6mm 8mm 10mm</a></div>
+<div class="pic3">$<span>3</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/hutu/">糊塗鞋匠 台灣鞋材製造廠&nbsp;(31611)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/store1460617765/M25670658.htm"><img id="img_25670658" src="https://img.pcstore.com.tw/~prod/M25670658_sma.jpg?pimg=static&P=1536200480#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_25670658"><a href="https://www.pcstore.com.tw/store1460617765/M25670658.htm">好拉 時尚 拉鍊頭 拉鍊尾繩 拉鍊拉片 防滑 長鏈 拉鏈頭 拉鍊拉頭 拉尾 衣服 <font color='red'>包包</font> 袋子 外套</a></div>
+<div class="pic3">$<span>10</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/store1460617765/">yvy 新莊&nbsp;(296)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/catdiy/M43381021.htm"><img id="img_43381021" src="https://img.pcstore.com.tw/~prod/M43381021_sma.jpg?pimg=static&P=1547437152#P000013" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_43381021"><a href="https://www.pcstore.com.tw/catdiy/M43381021.htm">喵喵【天然苧麻線-100g大包裝】6股線 每顆特價130元 台灣製造 苧麻繩 苧麻線 麻繩 麻線 零錢包 <font color='red'>包包</font> 提袋 手提包 手提袋 口金</a></div>
+<div class="pic3">$<span>130</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿1000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/catdiy/">MOMO DIY 喵喵手藝材料 滿百元才出貨喔！&nbsp;(21386)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/janome/M24208915.htm"><img id="img_24208915" src="https://img.pcstore.com.tw/~prod/M24208915_sma.jpg?pimg=static&P=1530861977#P000242" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_24208915"><a href="https://www.pcstore.com.tw/janome/M24208915.htm">可調式滾邊壓布腳 <勝家、兄弟、其他牌 > 用於拼布、<font color='red'>包包</font>滾邊</a></div>
+<div class="pic3">$<span>200</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/janome/">松芝車樂美JANOME&nbsp;(12800)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/hutu/M20374879.htm"><img id="img_20374879" src="https://img.pcstore.com.tw/~prod/M20374879_sma.jpg?pimg=static&P=1545293095#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_20374879"><a href="https://www.pcstore.com.tw/hutu/M20374879.htm">○糊塗鞋匠○ 優質鞋材 N33 台灣製造 YKK拉鍊頭 外套 <font color='red'>包包</font> 鞋子 皮夾 DIY 維修 修理</a></div>
+<div class="pic3">$<span>10</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/hutu/">糊塗鞋匠 台灣鞋材製造廠&nbsp;(31611)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/outdoorfun/M20100168.htm"><img id="img_20100168" src="https://img.pcstore.com.tw/~prod/M20100168_sma.gif?pimg=static&P=1529634066#P211028" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_20100168"><a href="https://www.pcstore.com.tw/outdoorfun/M20100168.htm">防潑水瑜珈背袋C155-110瑜珈袋運動背袋子.瑜珈<font color='red'>包包</font>側背包.瑜珈柱外袋瑜珈墊收納袋.外出休閒肩背包肩背袋手提袋.推薦哪裡買</a></div>
+<div class="pic3">$<span>119</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿6000元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/outdoorfun/">臻鳴運動百貨&nbsp;(79452)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/free_life/M27845959.htm"><img id="img_27845959" src="https://img.pcstore.com.tw/~prod/M27845959_sma.jpg?pimg=static&P=1552985177#P000054" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_27845959"><a href="https://www.pcstore.com.tw/free_life/M27845959.htm">隱藏式汽車掛勾 2枚裝 座椅背置物掛鉤 <font color='red'>包包</font>掛勾 耐重8KG 隨機出貨【Q351】《約翰家庭百貨</a></div>
+<div class="pic3"><span style="font:normal 11px/12px Verdana; color:#666">售價$39&nbsp;&nbsp;</span>97折&nbsp;$<span>38</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿899元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/free_life/">約翰家庭百貨&nbsp;(17320)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S150792121/C1141039807.htm"><img id="img_1141039807" src="https://cimg.pcstore.com.tw/cprd/C1141039807_sma.jpg?pimg=static&P=1510384467#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1141039807"><a href="https://seller.pcstore.com.tw/S150792121/C1141039807.htm">拼布<font color='red'>包包</font></a></div>
+<div class="pic3">$<span>100</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_visa.jpg" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S150792121/">小小可愛的家&nbsp;(3126)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/rogiv/M31681715.htm"><img id="img_31681715" src="https://img.pcstore.com.tw/~prod/M31681715_sma.jpg?pimg=static&P=1548729796#P100003" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_31681715"><a href="https://www.pcstore.com.tw/rogiv/M31681715.htm">[城泓<font color='red'>包包</font>] 改良加大版-城市三用多功後背包 筆電包 旅行包 登山包 R4256 (KAKA)</a></div>
+<div class="pic3">$<span>950</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/rogiv/">城泓包包&nbsp;(410)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/upacestore/M17985748.htm"><img id="img_17985748" src="https://img.pcstore.com.tw/~prod/M17985748_sma.jpg?pimg=static&P=1539834464#P000013" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_17985748"><a href="https://www.pcstore.com.tw/upacestore/M17985748.htm">油立淨TO GO(環保清潔劑、清洗衣服唇印、分解衣物髒汙、除去油垢污漬、快速強效洗淨、化妝<font color='red'>包包</font>必備)富崙</a></div>
+<div class="pic3">$<span>150</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿499元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/upacestore/">富崙旗艦店&nbsp;(2285)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S141900914/C1199604393.htm"><img id="img_1199604393" src="https://cimg.pcstore.com.tw/cprd/C1199604393_sma.jpg?pimg=static&P=1530107798#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1199604393"><a href="https://seller.pcstore.com.tw/S141900914/C1199604393.htm">出清 &#x1f525; 清倉 限量後背包三件組<font color='red'>包包</font></a></div>
+<div class="pic3">$<span>200</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S141900914/">狗愛買-progres&nbsp;(1662)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/store1538753867/M49968850.htm"><img id="img_49968850" src="https://img.pcstore.com.tw/web_img/no-product.gif#P100003" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_49968850"><a href="https://www.pcstore.com.tw/store1538753867/M49968850.htm"><font color='red'>包包</font>549</a></div>
+<div class="pic3">$<span>549</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_visa.gif" title="信用卡" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_atm.gif" title="ATM" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_fa.gif" title="全家萊爾富OK超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">跨店宅配0元免運</span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/store1538753867/">store1538753867&nbsp;(168)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://www.pcstore.com.tw/store1524498157/M41091110.htm"><img id="img_41091110" src="https://img.pcstore.com.tw/web_img/no-product.gif#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_41091110"><a href="https://www.pcstore.com.tw/store1524498157/M41091110.htm">萌萌兔<font color='red'>包包</font></a></div>
+<div class="pic3">$<span>100</span><br>
+</div>
+<div class="shoppingfee">最低運費：<span>滿490元免運費</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/search_icon_payment_711.gif" title="711超商取貨付款" align="absmiddle"></span></div>          
+<div class="pic2ti"><a href="https://www.pcstore.com.tw/store1524498157/">Wan SHOP&nbsp;(936)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S191591309/C1141907421.htm"><img id="img_1141907421" src="https://img.pcstore.com.tw/web_img/no-product.gif#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1141907421"><a href="https://seller.pcstore.com.tw/S191591309/C1141907421.htm"><font color='red'>包包</font></a></div>
+<div class="pic3">$<span>300</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S191591309/">小佑&nbsp;(852)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S135273917/C1194953038.htm"><img id="img_1194953038" src="https://cimg.pcstore.com.tw/cprd/C1194953038_sma.jpg?pimg=static&P=1528343804#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1194953038"><a href="https://seller.pcstore.com.tw/S135273917/C1194953038.htm">&#x1f525;B.M&#x1f525; 現貨當天出 限量後背包三件組 後背包三件組 <font color='red'>包包</font>三件組 後背包 手拿包 側背包</a></div>
+<div class="pic3">$<span>200</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S135273917/">B.M.熊愛買&nbsp;(3297)</a>
+</div>        
+</div>
+</div>
+	    	
+<div id="keyad-pro-right3" >
+<div class="pic1"><a href="https://seller.pcstore.com.tw/S117792561/C1143939126.htm"><img id="img_1143939126" src="https://cimg.pcstore.com.tw/cprd/C1143939126_sma.jpg?pimg=static&P=1549006314#P000256" onerror="this.src='https://img.pcstore.com.tw/web_img/no-product.gif'" width="120" border="0" height="120"></a></div>
+<div class="pic2">
+<div class="pic2t pic2t_bg" id="con_1143939126"><a href="https://seller.pcstore.com.tw/S117792561/C1143939126.htm">Angel兔子<font color='red'>包包</font></a></div>
+<div class="pic3">$<span>1,300</span><br>
+</div>
+<div class="shoppingfee"><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_pcpay.jpg" title="PChomePay" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_711.jpg" title="711超商取貨付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_fami.jpg" title="全家超商付款" align="absmiddle"></span><span class="payicon"><img src="https://img.pcstore.com.tw/web_img/st/payment_icon_atm.jpg" title="ATM" align="absmiddle"></span><a href="https://img.pcstore.com.tw/store_ad/C2C_mall.freeshipping/index.htm" target="_blank" style="text-decoration:none;"><span style="color:#fff; padding:1px 4px; background: #F00; margin-right:5px;white-space:nowrap;">全家滿$399運費$45</span></a></div>          
+<div class="pic2ti_p"><a href="https://seller.pcstore.com.tw/S117792561/">angel的小衣櫥&nbsp;(2446)</a>
+</div>        
+</div>
+</div>
+</div>
+<!-- 搜尋結果 end -->
+  
+<!-- 頁次 start -->
+<script type="text/javascript" src="/css/search_main.js?t=18"></script>
+<script language="JavaScript" src="/css/chksexpic.js?t=123456"></script>
+<div class="keyad-pro-page">
+<script type="text/javascript">
+  var spkey_arr={"ALL":"T字褲#g點#丁字褲#入珠#口交#口塞#充氣娃娃#仿真吸夾#冰火棒#死庫水#自殺#自愛器#自慰#壯陽#束精#肛交#肛塞#乳交#乳頭夾#延時增大#威而柔#威而鋼#威爾剛#後庭#持久液#美穴#美陰#飛機杯#迷幻水#高潮#強姦#情慾#陰交#陰莖#陰莖增大#陰蒂#陰道#開檔褲#陽具#催情水#催情液#跳蛋#蜜穴#嘿咻名器#潮吹#龜頭#縮陰#鎖精#爆乳#爆菊#露乳#屌環","P000001":"名器","P000005":"名器","P000022":"r-20#r20#名器#潤滑#露臀","P000027":"名器#拉珠#開洞","P000054":"名器","P000075":"名器#拉珠#開洞#潤滑","P000088":"名器#拉珠","P000095":"名器","P000242":"名器#拉珠","P000252":"r-20#r20#名器#拉珠#潤滑","P000256":"名器","P000587":"名器#拉珠","P000588":"名器#拉珠#開洞","P000750":"名器#拉珠#開洞","P000754":"名器#開洞","P000761":"名器","P000831":"名器#開洞","P001025":"r-20#r20#名器#拉珠#透視#開洞#潤滑#激情","P001077":"名器#拉珠","P001364":"名器","P001418":"名器#開洞","P100002":"r-20#r20#名器#性感#拉珠#按摩棒#情趣#透視#開洞#誘惑#潤滑#激情#露臀","P100003":"名器#性感#按摩棒#情趣#透視#誘惑#潤滑#激情#露臀","P210257":"名器","P210396":"r-20#r20#名器#拉珠#開洞","P210615":"名器#拉珠","P211027":"r-20#r20#名器#拉珠#開洞#潤滑","P211028":"名器#潤滑","P212413":"名器#拉珠#開洞#潤滑","P213737":"r-20#r20#名器#性感#拉珠#按摩棒#透視#開洞#誘惑#潤滑#激情#露臀"};  document.getElementById("sreswd").innerHTML = '搜尋結果：共找到  <b style="color:#F00; font-size:18px;">965,996</b>  個產品&nbsp;&nbsp;符合查詢字串：<b style="color:#F00; font-size:16px;">包包</b>';
+  if (ls_set) {
+    if (ls_s == null) setLS(lkey);
+    else prd_cate("all");
+  }
+  else {
+    if (ls_s !== null) prd_cate("all");
+  }
+
+  function prd_cate(exh) {
+    retObjkey();
+    var ls_s_key = Object.keys(JSON.parse(ls_s));
+    var res = ls_s_key[0].split("_");
+    var para = 'IGAxfER..GOGE3MkW0FTowekPGGzQwtsiSWlcrihPGGzObtqHRW-sCucYRm2ECeqptWfBCHAqBpb4bHEps_vUbMqPBdd5zoAi5lbVbMqptWvVboEXtdoY1urvsm2ECeqPBdd5ztcqtWfBCHAqsm2Qw4V-tWvEb4Vqsm2nCbEPBmbJwiqqtdSFa16pRm2XwiqptWSnCbEBIdfXao9q56bvbHEPtd8Ya1JMI6SY1u7hIWzTzt7iBev53yqptWdTutKKtpG4CbVkB_SFC1cHtpG4CbEXReWF3bmTtWSMCbViz8d5CbmRRe5PbtCqsm283thhRWzXao9qsm283thhtd_Vao9qsm283thhBWHQao9qsm2PCHCh5lbVbHViIdp4w1xYs_H53omMBm2q1u7hBMHQa1I55l-4CbEpRWS5fenWtpG4CbEpRWS5313PtpG4CbEPI8vQbv6Hz8d5313PB82JbHVVD2b53yqptW5pao9qsm2Uz4rKsWzYaor4Bp2q1u7ht_vWao6EIm2ErWJts_2V9_JVR6z53HrKS2p7od7_5l-sCucYRm2B31NOwUwW9bmXRJdQa1JMsp_5utKtsUW4utIHuOXYa5ASwUEsC19-RdGs34Zlsm2Q3HwHB_vYzd7-RdSU9uq55dvF9inq0O3sA-nxkAlA9uJMRddYCvNhBMHquolXROKWw4EYBOpPc9IPGSwQ.8cvBWHUC1KKRdfFc9IPGS3cc897BXJ8.8cPBm2OC1cKuZOP.yn7BXJ9.8cPI828w1xT58Iq.1gQGLJq219_s8K_C19-uZOO.y0Qu_d7ubEVsWzXc9IPGZpO.89f5_8W.P6vzSxe29ay0_Kzaemtt2lebuPhi828CMcvshS4C-II0SSc33Jt-yqebk9e_pvVbHmvslb5gyn8I2wnb3hz5A29.t-BuZOO.ynWGGzOuuNh5p2J3tKRRxGowekPGGzBuusiSWlcfeiismSMao6EIJGoA9IPGSw7.8cp5yHOa1rHtdzUb_97_ZOO.yAQu_5Fa1pBuZOO.y7QuGGowek4GGznwo6HRUlq.3P7BXJ7rMiiBW8Fa17hslbEboLiSYxowekW0XJqw1qKtWd5wvmXIWH5wd97BXJQ.8yiSWlcrMgQu_S4wbEptWzBCvwHtWIq.1gQDFJqc9IPGSwJ.8cptWSnCbEBIdfXaoyiSWlcrMiiDGGo0Hjj';
+
+    if (res[0] == enc_skw && res[1] == exh && res[2] == '' && res[3] == '' && res[4] == '' && res[5] == '1gw2' && res[6] == '' && res[7] == '1') {
+      var now = new Date();
+      if (now.getTime() <= ls_e) {
+        if ("undefined" != typeof(JSON.parse(ls_s)[lkey])) {
+          $("#item-org").innerHTML = JSON.parse(ls_s)[lkey];
+        }
+      }
+      else {
+        // 過期,ajax call prepend
+        if (ls_set) setLS(lkey);
+        else get_pcate(exh, para, "");
+      }
+    }
+    else {
+      // ajax call prepend
+      if (ls_set) setLS(lkey);
+      else get_pcate(exh, para, "");
+    }
+  }
+
+  function setLS(lkey) {
+    var lsdata = { [lkey] : $("#item-org").innerHTML };
+    localStorage.setItem("srhkind", JSON.stringify(lsdata));
+    var exp = new Date();
+    localStorage.setItem("srhkind_expire", exp.getTime()+6*60*60*1000); // 6小時
+  }
+
+  function pql_search(s_page){
+    var page_count = document.main_store.page_count.value;
+    document.main_store.page_count.value = ""; // 可避免下拉式選單所選取的數量有畫面閃動的情況
+    s_page = check_spage(s_page,page_count,'965996');
+    // JavaScript Setting Cookie            
+/*
+    setDay = new Date();                 // 30*60*60*24*1000			
+    setDay.setTime(setDay.getTime()+eval(30*60*60*24*1000));		
+    store_set_cookie("pagecountBycookie",page_count, setDay , "/", window.location.host);
+*/
+    window.location.href = "/adm/psearch.htm?pql_word=Inlg9Eu..HFFB6hO_1fa3Hhn_Powm2urSlpKh63zcPfXvHhBRKYmeaura_.1Ai15gYYmOy9zk&stpa=_1__GraphWord_all_____2&s_page="+s_page+"&page_count="+page_count+"";
+  }
+  document.write(get_page_bar(1, 24150, 965996, 'pql_search'));
+
+  get_kw_detail();
+</script>
+</div>
+<!-- 頁次 end --> 
+</div>
+<!-- 這個清除元素應該緊接在 #mainContent Div 之後，以便強制 #container Div 包含所有子浮動 -->
+<br class="clearfloat">
+<div id="footer_b">
+商店街市集國際資訊股份有限公司版權所有，轉載必究。<a href="https://www.pcstore.com.tw/adm/privacy.htm">隱私權聲明</a>
+</div>
+</form>
+</body>
+</html>
+<font color="white">1.3002309799194</font>  
+<!-- 	 2019/04/10 18:40:41 -->
+
+<script language="JavaScript">
+  var html_end_js_var=true;
+
+if(window.cal_impression && !window.cal_black ) cal_impression("https://www.pcstore.com.tw/edm/calculate_manage.php");</script>
